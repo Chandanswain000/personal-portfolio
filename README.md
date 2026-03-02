@@ -6,7 +6,7 @@ This project showcases my skills, education, and work experience as a passionate
 ---
 
 ## 🌐 Live Preview
-(You can add your deployed link here later)# personal-portfolio
+(https://chandanswain000.github.io/personal-portfolio/)# personal-portfolio
 here i have made a simple portfolio website which show case my basic frontend skill
 
 ---
