@@ -82,7 +82,7 @@ You can drag and drop an image into GitHub README after uploading.
 **Chandan Swain**  
 Aspiring Full Stack Developer  
 
-- GitHub: https://github.com/your-username
+- GitHub: https://github.com/Chandanswain000
 - LinkedIn: (Add your LinkedIn link)
 
 ---
