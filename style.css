@@ -1,0 +1,147 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     background-color: rgb(18, 18, 62);
+     color: white;
+     font-family: "Poppins", sans-serif;
+ }
+
+ nav {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     height: 70px;
+     background-color: rgb(29, 29, 87);
+ }
+
+ nav ul {
+     display: flex;
+ }
+
+ nav ul li {
+     list-style: none;
+     margin: 0 23px;
+ }
+
+ nav ul li a {
+     text-decoration: none;
+     color: white;
+ }
+
+ nav ul li a:hover {
+     color: rgb(147, 147, 230);
+ }
+
+ .left {
+     font-size: 25px;
+     font-weight: 600;
+ }
+
+ main hr {
+     border: 0;
+     background: rgb(168, 168, 227);
+     height: 1px;
+     margin: 40px 0;
+ }
+
+ /* HERO SECTION */
+ .first {
+     display: flex;
+     justify-content: space-around;
+     margin: 110px 0;
+     align-items: center;
+ }
+
+ .first>div {
+     width: 35%;
+ }
+
+ .left-section {
+     font-size: 2.8rem;
+ }
+
+ .right-section img {
+     width: 80%;
+ }
+
+ .purple {
+     color: rgb(178, 137, 216);
+ }
+
+ #element {
+     color: rgb(178, 137, 216);
+ }
+
+ /* WORK SECTION */
+ .secondsection {
+     max-width: 80vw;
+     margin: auto;
+     padding-bottom: 60px;
+ }
+
+ .secondsection h1 {
+     font-size: 1.9rem;
+     margin: 20px 0;
+ }
+
+ .text-grey {
+     color: grey;
+ }
+
+ /* SKILLS SECTION */
+ .skills {
+     max-width: 80vw;
+     margin: auto;
+     padding: 60px 0;
+ }
+
+ .skills h1 {
+     margin-bottom: 30px;
+ }
+
+ .skill-box {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px;
+ }
+
+ .skill-item {
+     background-color: rgb(29, 29, 87);
+     padding: 15px 25px;
+     border-radius: 8px;
+     font-weight: 500;
+     transition: 0.3s;
+ }
+
+ .skill-item:hover {
+     background-color: rgb(178, 137, 216);
+     cursor: pointer;
+ }
+
+ /* EDUCATION SECTION */
+ .education {
+     max-width: 80vw;
+     margin: auto;
+     padding: 60px 0;
+ }
+
+ .education h1 {
+     margin-bottom: 30px;
+ }
+
+ .edu-box {
+     background-color: rgb(29, 29, 87);
+     padding: 20px;
+     border-left: 5px solid rgb(178, 137, 216);
+     margin-bottom: 20px;
+     border-radius: 6px;
+ }
+
+ .edu-box h3 {
+     margin-bottom: 5px;
+ }
