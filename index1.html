@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chandan - Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left">Chandan's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HOME SECTION -->
+        <section class="first" id="home">
+            <div class="left-section">
+                Hi, My name is <span class="purple">Chandan</span>
+                <div>I am a Passionate</div>
+                <span id="element"></span>
+
+                <div class="buttons">
+                    <a href="resume.pdf" download class="btn">Download Resume</a>
+                    <a href="https://www.linkedin.com/" target="_blank" class="btn btn-linkedin">LinkedIn</a>
+                </div>
+            </div>
+            </div>
+
+            <div class="right-section">
+                <img src="png1.png" alt="">
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- SKILLS SECTION -->
+        <section class="skills" id="skills">
+            <h1>My Skills</h1>
+            <div class="skill-box">
+                <div class="skill-item">HTML</div>
+                <div class="skill-item">CSS</div>
+                <div class="skill-item">JavaScript</div>
+                <div class="skill-item">React JS</div>
+                <div class="skill-item">Node JS</div>
+                <div class="skill-item">MongoDB</div>
+                <div class="skill-item">Graphic Designing</div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- EDUCATION SECTION -->
+        <section class="education" id="education">
+            <h1>Education</h1>
+
+            <div class="edu-box">
+                <h3>Bachelor of Computer Applications (BCA)</h3>
+                <p>Precidency Collage,Berhampur | 2023 - 2026</p>
+            </div>
+
+            <div class="edu-box">
+                <h3>Higher Secondary (12th)</h3>
+                <p>Anchalika Higher Secondary School,Ballipadar| 2021 - 2023</p>
+            </div>
+            <div class="edu-box">
+                <h3>Secondary School (10th)</h3>
+                <p>sanskar vidya bhavan ,surat,gujrat | 2020 - 2021</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <p>© 2026 Chandan Swain | All Rights Reserved</p>
+
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="footer-social">
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'Graphic Designer.', 'Photo Editor.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
